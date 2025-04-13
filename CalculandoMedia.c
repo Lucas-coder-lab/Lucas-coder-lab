@@ -2,17 +2,17 @@
 // Programa para calculo de média
 int main(){
 
- int nota1,nota2, nota3;
+ int nota1, nota2, nota3;
  float media;
 
  printf("Escreva a primeira nota: \n");
- scanf("%d\n",nota1);
+ scanf("%d",&nota1);
 
  printf("Escreva a segunda nota: \n");
- scanf("%d\n",nota2);
+ scanf("%d",&nota2);
 
  printf("Escreva a terceira nota: \n");
- scanf("%d\n",nota3);
+ scanf("%d",&nota3);
 
  media = (float)(nota1 + nota2 + nota3) / 3;
 
