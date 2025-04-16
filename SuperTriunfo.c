@@ -98,7 +98,7 @@ int main()
 
    printf("Numero de pontos turisticos: %d\n",pontos2);
  
-  printf("Densidade: %f\n",densidade2);
+   printf("Densidade: %f\n",densidade2);
     
    printf("Pib per Capita: %f\n", percapita2);
 
