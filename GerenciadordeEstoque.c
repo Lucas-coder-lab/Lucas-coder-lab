@@ -13,11 +13,11 @@ unsigned int estoqueB = 2000;
 float valorA = 10.50;
 float valorB = 20.40;
 
-unsigned int estoqueMinimoA = 500;
-unsigned int estoqueMinimoA = 2500;
+unsigned int estoqueminimoA = 500;
+unsigned int estoqueminimoA = 2500;
 
-double valorTotalA;
-double valorTotalB;
+double valortotalA;
+double valortotalB;
 
 
 printf("Produto %s tem estoque %u e o valor unitario é %f\n", produtoA, estoqueA, valorA);
