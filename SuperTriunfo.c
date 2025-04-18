@@ -6,7 +6,7 @@ int main()
 
    int pontos1, pontos2;
    unsigned long int populacao1, populacao2;
-   float  area1, area2, pib1, pib2, densidade1, densidade2, percapita1, percapita2;
+   float  area1, area2, pib1, pib2, densidade1, densidade2, percapita1, percapita2, superpoder1, superpoder2;
    char nome1[30], nome2[30], estado1[50], estado2[50],codigo1[50], codigo2[50];
 
    
@@ -60,6 +60,10 @@ int main()
   percapita1 = (pib1 / populacao1);
   percapita2 = (pib2 / populacao2);
 
+ superpoder1 = populacao1 + area1 + pib1 + pontos1 + percapita1 + (1 - densidade1);
+
+ superpoder2 = populacao2 + area2 + pib2 + pontos2 + percapita2 + (1 - densidade2);
+
 
    //Exibindo o resultado carta 1
    
@@ -82,6 +86,8 @@ int main()
     
    printf("Pib per Capita: %f\n", percapita1);
 
+   printf("Super Poder Carta 1: %f\n", superpoder1);
+
    //Exibindo resultado carta 2
 
    printf("Carta2 : \n");
@@ -102,7 +108,7 @@ int main()
     
    printf("Pib per Capita: %f\n", percapita2);
 
-  
+   printf("Super Poder Carta 2: %f\n", superpoder2);
 
 
 
