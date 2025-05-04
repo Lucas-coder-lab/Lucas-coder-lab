@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include <stdio.h>
 
 int entrada(){
 
@@ -9,7 +9,7 @@ int datanascimento;
 float planomed;
 
     printf("Digite seu nome: \n");
-    scanf("%s\n", nome);
+    scanf("%s \n", nome);
     printf("Digite seu CPF: \n");
     scanf("%d\n", &CPF);
     printf("Digite a data de nascimento \n");
@@ -18,6 +18,7 @@ float planomed;
     scanf("%f\n", &planomed);
 
  return 0;
+
 }
 
  
