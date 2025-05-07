@@ -1,21 +1,50 @@
 #include <stdio.h>
 
-int entrada(){
+int main(){
 
+ int opcao;
+ int carro;
+ int dias;
 
-char nome;
-int CPF;
-int datanascimento;
-float planomed;
+ printf("Bem-vindo a locadora de carros importados, como posso ajudar? \n");
+ printf("1 - Ver carros para Alugar?\n");
+ printf("2 - cadastro do cliente \n");
+ scanf("%d",&opcao);
+  
+ switch (opcao) {
+ 
+ case 1:
+   printf("1 - McLaren Senna 200mil 10 dias \n");
+   printf("2 - Ferrari Roma Spider - 150mil 10 dias \n");
+   printf("3 - Porshe 911 GT3 RS 180mil 10 dias \n");
+ 
+   scanf("%d", &carro);
 
-    printf("Digite seu nome: \n");
-    scanf("%s \n", nome);
-    printf("Digite seu CPF: \n");
-    scanf("%d\n", &CPF);
-    printf("Digite a data de nascimento \n");
-    scanf("%d\n", &datanascimento);
-    printf("Sera pelo plano de saude? digite apenas sim ou não \n");
-    scanf("%f\n", &planomed);
+     switch (carro) {
+
+       case 1:
+      
+      printf("1 - 10 dias 200mil \n");
+      printf("2 - 20 dias 400mil \n");
+      printf("3 - 30 dias 550mil \n");
+   
+     scanf("%d",&dias);
+
+     break;
+     
+
+     }
+     
+ break;
+default:
+
+ printf("Finalizado atendimento");
+     
+
+ }
+
+ 
+ 
 
  return 0;
 
