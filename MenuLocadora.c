@@ -75,5 +75,6 @@ int main(){
 
 
      }    
- case 2:
-
+ 
+return 0;
+    }
