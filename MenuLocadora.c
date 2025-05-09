@@ -108,7 +108,90 @@ int main(){
        case 3:
        printf("Pode inserir ou aproximar e digitar a senha, muito obrigado, faça um ótimo aproveito");
        break;
+
+   
+    break;   
+    case 2:
+      switch (carro) {
+
+       case 2:
+
+      printf("Escolha quantos dias pretente ficar com o carro \n");
+
+      printf("1 - Ferrari Roma Spider por 10 dias a 200mil \n");
+      printf("2 - Ferrari Roma Spider por 20 dias a 400mil \n");
+      printf("3 - Ferrari Roma Spider por 30 dias a 550mil \n");
+   
+     scanf("%d",&Ferrari);
+
+     switch (Ferrari) {
+    case 1: 
       
+      printf("%s, você alugou nossa Ferrari Roma Spider por 10 dias, com o valor total de 200mil, contando a partir da presente data! \n", nome);
+      
+      printf("Qual forma de pagamento? \n");
+      printf("1 - Dinheiro ou Pix \n");
+      printf("2 - Cartão Credito \n");
+      printf("3 - Cartão debito \n");
+      scanf("%d", &pagamento);
+
+       switch(pagamento){
+     
+       case 1:
+       printf("Muito obrigado pelo pagamento, faça um bom aproveito");
+       break;
+       case 2:
+       printf("Pode inserir ou aproximar e digitar a senha, muito obrigado, faça um ótimo aproveito");
+       break;
+       case 3:
+       printf("Pode inserir ou aproximar e digitar a senha, muito obrigado, faça um ótimo aproveito");
+       break;
+       }
+    break;
+
+    case 2:
+      printf("%s, você alugou nossa Ferrari Roma Spider por 20 dias, com o valor total de 400mil, contando a partir da presente data! \n", nome);
+      printf("Qual forma de pagamento? \n");
+      printf("1 - Dinheiro ou Pix \n");
+      printf("2 - Cartão Credito \n");
+      printf("3 - Cartão debito \n");
+      scanf("%d", &pagamento);
+       switch(pagamento){
+     
+       case 1:
+       printf("Muito obrigado pelo pagamento, faça um bom aproveito");
+       break;
+       case 2:
+       printf("Pode inserir ou aproximar e digitar a senha, muito obrigado, faça um ótimo aproveito");
+       break;
+       case 3:
+       printf("Pode inserir ou aproximar e digitar a senha, muito obrigado, faça um ótimo aproveito");
+       break;
+       }
+
+    break;
+    case 3:
+       printf("%s, você alugou nossa Ferrari Roma Spider por 30 dias, com o valor total de 550mil, contando a partir da presente data! \n", nome);
+       printf("Qual forma de pagamento? \n");
+       printf("1 - Dinheiro ou Pix \n");
+       printf("2 - Cartão Credito \n");
+       printf("3 - Cartão debito \n");
+       scanf("%d", &pagamento);
+       switch(pagamento){
+     
+       case 1:
+       printf("Muito obrigado pelo pagamento, faça um bom aproveito");
+       break;
+       case 2:
+       printf("Pode inserir ou aproximar e digitar a senha, muito obrigado, faça um ótimo aproveito");
+       break;
+       case 3:
+       printf("Pode inserir ou aproximar e digitar a senha, muito obrigado, faça um ótimo aproveito");
+       break;
+      
+    break;
+
+
     break;
       
     
@@ -124,15 +207,26 @@ int main(){
 
      }
      
- break;
-default:
+   break;
 
+
+
+     }
+
+     }
+     
+  
+     break;
+     
+   }
+
+default:
+{
  printf("Obrigado por ter entrado em contato, qualquer duvida ficamos a disposição");
      
 
  }
 
- return 0;
-
+ }
 }
 
