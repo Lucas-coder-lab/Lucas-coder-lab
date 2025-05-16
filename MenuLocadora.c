@@ -4,7 +4,6 @@ int main(){
 
  int opcao, pagamento, carro;
  int Mclaren, Ferrari, Porshe;
- int alugado1, alugado2, alugado3;
  float telefone;
  char nome[30];
 
@@ -34,36 +33,38 @@ int main(){
 
      switch (carro) {
 
-       case 1:
+       case 1: {
 
-      printf("Escolha quantos dias pretente ficar com o carro \n");
+       printf("Escolha quantos dias pretente ficar com o carro \n");
 
-      printf("1 - McLaren Senna por 10 dias a 200mil \n");
-      printf("2 - McLaren Senna por 20 dias a 400mil \n");
-      printf("3 - McLaren Senna por 30 dias a 550mil \n");
+       printf("1 - McLaren Senna por 10 dias a 200mil \n");
+       printf("2 - McLaren Senna por 20 dias a 400mil \n");
+       printf("3 - McLaren Senna por 30 dias a 550mil \n");
    
-     scanf("%d",&Mclaren);
-     break;
-      case 2:
-     printf("Escolha quantos dias pretente ficar com o carro \n");
+       scanf("%d",&Mclaren);
+       break;
+       }
+       case 2: {
+       printf("Escolha quantos dias pretente ficar com o carro \n");
 
-      printf("1 - Ferrari por 10 dias a 200mil \n");
-      printf("2 - Ferrari por 20 dias a 400mil \n");
-      printf("3 - Ferrari por 30 dias a 550mil \n");
+       printf("1 - Ferrari por 10 dias a 200mil \n");
+       printf("2 - Ferrari por 20 dias a 400mil \n");
+       printf("3 - Ferrari por 30 dias a 550mil \n");
    
-     scanf("%d",&Ferrari);
-     break;
-     case 3:
+       scanf("%d",&Ferrari);
+       break;
+       }
+       case 3: {
      
-     printf("Escolha quantos dias pretente ficar com o carro \n");
+       printf("Escolha quantos dias pretente ficar com o carro \n");
 
-      printf("1 - Porshe por 10 dias a 200mil \n");
-      printf("2 - Porshe por 20 dias a 400mil \n");
-      printf("3 - Porshe por 30 dias a 550mil \n");
+       printf("1 - Porshe por 10 dias a 200mil \n");
+       printf("2 - Porshe por 20 dias a 400mil \n");
+       printf("3 - Porshe por 30 dias a 550mil \n");
    
-     scanf("%d",&Porshe);
-     break; 
-     
+      scanf("%d",&Porshe);
+      break; 
+       }
 
 
 
@@ -74,7 +75,10 @@ int main(){
     
 
 
-     }    
- 
+     }  
+ } 
+
+
 return 0;
-    }
+    
+}
